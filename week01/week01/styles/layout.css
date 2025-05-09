@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    display: grid;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
