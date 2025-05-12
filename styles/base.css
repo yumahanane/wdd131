@@ -9,8 +9,9 @@ h1 {
     padding: 1.5rem;
     background-color: rgb(53, 76, 135);
     font-weight: 10;
+    font-size: 28.7px ;
     color: white;
-    font-family: 'DM Serif Text', Arial, Helvetica, sans-serif;
+    font-family: 'PT Sarif', Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -42,6 +43,8 @@ nav {
     background-color:black;
     margin: 0 auto;
     max-width: 800px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
 }
 
 nav ul {
