@@ -24,7 +24,7 @@ list.append(li);
 // Create a click event listener for the Add Chapter button using an addEventListener.
 button.addEventListener('click', function () {
     if (input.value.trim() !== '') {
-        console.log(li);
+        input.value;
     } else {
         input.focus();
     }
