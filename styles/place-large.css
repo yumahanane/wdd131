@@ -3,41 +3,61 @@
         position: relative;
     }
 
-    .stats {
+    .hero {
+        background-color: rgb(12, 20, 52);
+    }
+
+    .icon {
+        position: absolute;
+        left: 40%;
         width: 25%;
+        height: 2px;
+    }
+
+    .stats {
+        width: 32%;
         position:absolute;
         top: 20%;
         left: 2%;
+        opacity: 0.8;
     }
 
     .stats h2 {
-        background-color: rgb(238, 71, 71);
+        background-color: rgb(150, 214, 194);
         position:absolute;
-        left: -6%;
+        left: -10%;
         margin: 15px;
         width: 80%;
         text-align: start;    
     }
 
     .data, .weather {
-        padding-top: 4rem;
+        padding-top: 4.5rem;
     }
 
     .temp {
-        width: 20%;
+        width: 25%;
         position: absolute;
         bottom: 2%;
         right: 2%;
+        opacity: 0.8;
     }
     
     .temp h2 {
-        background-color: rgb(238, 71, 71);
+        background-color: rgb(150, 214, 194);
         position: absolute;
-        left: -8%;
+        left: -13%;
         margin: 15px;
         width: 80%;
         text-align: start;
+    }
 
+    .col1 {
+        font-weight: 700;
+    }
+
+    .col2 {
+        font-weight: 400;
     }
 }
 
