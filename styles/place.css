@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: rgb(139, 206, 139);
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1rem solid white;
+}
+
+.hero, .icon { 
+    background-color: rgb(88, 87, 87);
+}
+
+.hero img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.icon img {
+    display:block;
+    margin: 0 auto;
+}
+
+
+h2, .data, .weather {
+    text-align: center;
+    background-color: rgb(88, 87, 87);
+    color: white;
+    padding: 0.5rem;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.col1 {
+    text-align: right;
+    
+}
+
+.col2 {
+    padding: 10px;
+    text-align: left;
+    font-weight: 100;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(244, 241, 96, 0.724);
+    border-top: 1rem solid white;
+}
+
+footer p {
+    color: black;
+    padding: 0.5rem;
+}
+
+#lastModified {
+    color: rgb(238, 71, 71);
+}

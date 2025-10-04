@@ -1,0 +1,24 @@
+@media screen and (min-width: 500px) {
+    
+    .stats {
+        width: fit-content;
+        position: relative;
+        top: -560px;
+        left: 15px;
+    }
+
+    .temp {
+        width: min-content;
+        position: relative;
+        bottom: 700px;
+        right: -550px;
+    }
+
+    h2 {
+        background-color: rgb(238, 71, 71);
+        
+    }
+
+    
+
+}
