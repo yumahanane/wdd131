@@ -40,6 +40,9 @@ h2, .data, .weather {
     justify-items: center;
 }
 
+h2:hover {
+    text-decoration: underline;
+}
 
 .row {
     display: grid;

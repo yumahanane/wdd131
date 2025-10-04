@@ -52,6 +52,10 @@
         text-align: start;
     }
 
+    h2:hover {
+        text-decoration: underline;
+    }
+
     .col1 {
         font-weight: 700;
     }
