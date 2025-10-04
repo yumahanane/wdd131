@@ -1,24 +1,43 @@
 @media screen and (min-width: 500px) {
-    
-    .stats {
-        width: fit-content;
+    main {
         position: relative;
-        top: -560px;
-        left: 15px;
+    }
+
+    .stats {
+        width: 25%;
+        position:absolute;
+        top: 20%;
+        left: 2%;
+    }
+
+    .stats h2 {
+        background-color: rgb(238, 71, 71);
+        position:absolute;
+        left: -6%;
+        margin: 15px;
+        width: 80%;
+        text-align: start;    
+    }
+
+    .data, .weather {
+        padding-top: 4rem;
     }
 
     .temp {
-        width: min-content;
-        position: relative;
-        bottom: 700px;
-        right: -550px;
+        width: 20%;
+        position: absolute;
+        bottom: 2%;
+        right: 2%;
     }
-
-    h2 {
-        background-color: rgb(238, 71, 71);
-        
-    }
-
     
+    .temp h2 {
+        background-color: rgb(238, 71, 71);
+        position: absolute;
+        left: -8%;
+        margin: 15px;
+        width: 80%;
+        text-align: start;
 
+    }
 }
+

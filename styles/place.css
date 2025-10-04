@@ -25,16 +25,14 @@ h1 {
     background-color: rgb(88, 87, 87);
 }
 
-.hero img {
+img {
+    max-inline-size: 100%;
+    display: block;
     margin: 0 auto;
-    width: 100%;
-    height: auto;
 }
 
-.icon img {
-    display:block;
-    margin: 0 auto;
-}
+
+
 
 
 h2, .data, .weather {
@@ -42,6 +40,7 @@ h2, .data, .weather {
     background-color: rgb(88, 87, 87);
     color: white;
     padding: 0.5rem;
+    justify-items: center;
 }
 
 
@@ -54,7 +53,6 @@ h2, .data, .weather {
 
 .col1 {
     text-align: right;
-    
 }
 
 .col2 {
