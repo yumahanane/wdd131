@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 400px;
+    background-color: rgb(127, 255, 212, 0.2);
+    margin: 0 auto;
+}
+
+h1, footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(144, 187, 187);
+    color: white;
+}
+
+img {
+    display: block;
+    padding: 10px 0;
+    animation: fade 15s;
+    background-color: azure;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0; /* in the beginning of the loading, the opacity will be 0, meaning the imgs will be fully transparent */
+    }
+    100% {
+        opacity: 1; /* at the end of the 15s, the imgs will have opacity of 100% or 1 or be none transparent at all */
+    }
+}
+
+
+
