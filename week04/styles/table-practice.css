@@ -14,20 +14,22 @@ caption {
 }
 
 th, td {
-    border: 1px solid grey;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
 }
 
-.header, .empty {
+thead {
     background-color: black;
     color: white;
-    border:1px solid black;
+    border: 1px solid black;
+
+    tr:nth-last-child(1) { /*the subheader */
+        background-color: rgb(88, 86, 86);
+    }
 }
 
-.subheader1 {
-    background-color: rgb(88, 86, 86);
-    color: white;
-    border:1px solid rgb(78, 73, 73);
+.empty {
+    background-color: black;
 }
 
 td {
