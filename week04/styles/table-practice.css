@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: 30px auto;
+    border: 1px solid grey;
+    border-collapse: collapse; /* makes the border collapse with the borders of each cell */
+}
+
+caption {
+    caption-side: bottom;
+    padding-top: 0.5rem;
+}
+
+th, td {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.header, .empty {
+    background-color: black;
+    color: white;
+    border:1px solid black;
+}
+
+.subheader1 {
+    background-color: rgb(88, 86, 86);
+    color: white;
+    border:1px solid rgb(78, 73, 73);
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(233, 228, 228);
+}
+
