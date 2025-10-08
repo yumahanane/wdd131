@@ -21,10 +21,10 @@
 
     .templesCards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;  
+    }
 
-        section {
-            margin: 0.5rem;
-        }
+    .templesCards section {
+        margin: 0.5rem;
     }
 }

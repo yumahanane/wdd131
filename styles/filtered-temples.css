@@ -4,10 +4,8 @@
 }
 
 body {
-    font-family: sans-serif, Arial, Helvetica,;
-    color: rgba(34, 11, 91, 0.724);
-    padding: 1rem;
-    font-size: 1.4rem;
+    font-family: sans-serif, Arial, Helvetica;
+  
 }
 
 header {
@@ -16,7 +14,7 @@ header {
     grid-gap: 1rem;
     padding: 1rem;
     border: 1px solid rgba(34, 11, 91, 0.724);
-    ;
+    font-size: 1.4rem;
 }
 
 header,
@@ -79,45 +77,38 @@ main h1 {
     color: black;
     padding: 1rem;
     justify-self: center;
-
 }
 
-.templesCards {    
+.templesCards section {
+    margin: 20px auto;
+    border: 1px solid grey;
+    background-color: rgb(246, 243, 243);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.templesCards .label {
+    color:rgba(100, 10, 116, 0.724);
+    font-weight: 700;
     
-    section {
-        margin: 20px auto;
-        border: 1px solid grey;
-        background-color: rgb(246, 243, 243);
-        color: black;
-        text-align: center;
-        padding: 1rem;
-    }
+}
 
-    .label {
-        color:rgba(100, 10, 116, 0.724);
-        font-weight: 700;
-        
-    }
+.templesCards h2 {
+    padding: 1rem;
+    font-size: 2rem;
+}
 
-    h3 {
-        padding: 1rem;
-        font-size: 2rem;
-    }
-    
-    p {
-        padding: 0.2rem;
-    }
-    
-    section img {
-        width: 100%;
-        height: auto;
-        border: 1px solid grey;
-        margin-top: 1.2rem;
-        box-shadow: 4px 4px 10px rgb(32, 6, 52);
-        
-    }
+.templesCards p {
+    padding: 0.2rem;
+}
 
-
+.templesCards section img {
+    width: 100%;
+    height: auto;
+    border: 1px solid grey;
+    margin-top: 1.2rem;
+    box-shadow: 4px 4px 10px rgb(32, 6, 52);   
 }
 
 footer {
