@@ -85,12 +85,12 @@ const temples = [
             "https://churchofjesuschristtemples.org/assets/img/temples/durban-south-africa-temple/durban-south-africa-temple-7936-main.jpg"
     },
     {
-        templeName: "Joahnnesburg South Africa",
-        location: "Joahnnesburg, South Africa",
-        dedicated: "1985, August, 24-25",
-        area: 19184,
+        templeName: "Kirtland",
+        location: "Kirtland, Ohio, United States",
+        dedicated: "1836, March, 27",
+        area: 15000,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/johannesburg-south-africa-temple/johannesburg-south-africa-temple-22475-main.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/kirtland-temple/kirtland-temple-1275-main.jpg"
     },
     {
         templeName: "Palmyra New York",

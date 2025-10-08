@@ -4,10 +4,10 @@
 }
 
 body {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica,;
     color: rgba(34, 11, 91, 0.724);
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 header {
@@ -94,7 +94,9 @@ main h1 {
     }
 
     .label {
-        color:rgba(100, 10, 116, 0.724)
+        color:rgba(100, 10, 116, 0.724);
+        font-weight: 700;
+        
     }
 
     h3 {
