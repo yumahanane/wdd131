@@ -102,10 +102,36 @@ const temples = [
     },
 ];
 
-createTempleCard();
+createTempleCard(temples);
 
-function createTempleCard() {
-    temples.forEach(temple => {
+const allLink = document.querySelector("#all");
+allLink.addEventListener("click", () => {
+    createTempleCard(temples);
+});
+
+const oldLink = document.querySelector("#old");
+oldLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.dedicated <= "1900"));
+});
+
+const newLink = document.querySelector("#new");
+newLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.dedicated >= "2000"));
+});
+
+const largeLink = document.querySelector("#large");
+largeLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.area >= "90000"));
+});
+
+const smallLink = document.querySelector("#small");
+smallLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.area <= "10000"));
+});
+
+function createTempleCard(filteredTemples) {
+    document.querySelector(".templesCards").innerHTML = "";
+    filteredTemples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("p");
