@@ -101,12 +101,13 @@ main h1 {
 
 .templesCards p {
     padding: 0.2rem;
+    font-size: 1.3rem;
 }
 
 .templesCards section img {
     width: 100%;
     height: auto;
-    border: 1px solid grey;
+    border: 1px solid rgb(112, 110, 110);
     margin-top: 1.2rem;
     box-shadow: 4px 4px 10px rgb(32, 6, 52);   
 }
