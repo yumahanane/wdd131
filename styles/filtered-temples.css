@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
   
 }
 
@@ -116,6 +116,7 @@ footer {
     text-align: center;
     background-color: rgba(34, 11, 91, 0.724);
     margin-bottom: 2rem;
+    font-size: 1.3rem;
 }
 
 footer p {
