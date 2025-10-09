@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', 'Crimson Text', Arial, sans-serif;
+}
+
+header, main, footer {
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    background-color: #D9F3FF;
+}
+
+header h1, header p {
+    background-color: #FF9671;
+    text-align: center;
+    color: rgb(29, 29, 97);
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+h3 {
+    padding: 0.5rem;
+}
+
+p {
+    text-align: justify;
+    padding: 1rem;
+}
+
+#crimson {
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-bottom: 1rem;;
+}
+
+img {
+    border: 3px solid #FF9671;
+    margin: 1rem;
+}
+
+footer p {
+    text-align: center;
+}
