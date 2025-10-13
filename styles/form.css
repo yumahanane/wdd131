@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, footer {
+    text-align: center;
+    background-color: rgb(10, 75, 52);
+    color: white;
+    padding: 1rem;
+
+}
+
+form {
+    background-color: rgb(213, 240, 231);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+
+label, div, textarea {
+    display: block;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+
+select, 
+textarea, 
+#date,
+#reviewer {
+    display: block;
+    padding: 0.75rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    appearance: none;
+    border: 1px solid #165c31;
+    border-radius: 7px;
+    font-size: 0.9rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 7px;
+}
+
+textarea {
+    margin-left: 0.5rem;
+}
+
+#fivestars, #design {
+    margin-bottom: 2rem;
+}
+
+
+input[type="submit"] {
+    background-image: linear-gradient(#e37961, rgb(53, 186, 87));
+    color: rgb(3, 19, 9);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 330px;
+    margin-left: 0.3rem;
+    box-shadow: 1px 1px 4px #999;
+}
+
+section {
+    text-align: center;
+    padding: 2rem;
+    min-height: 400px;
+}

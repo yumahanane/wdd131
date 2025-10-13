@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Product Review</h1>
+        <form method="get" action="review.html">
+            <label>Product Name* 
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product ... &#9662;</option>
+                    <div id="otherOptions">
+                    </div>
+                </select>
+            </label>
+
+            <div>Overall Rating*</div>
+            <label><input type="radio" id="onestar" name="rating" required>&star;</label>
+            <label><input type="radio" id="twostars" name="rating" required>&star;&star;</label>
+            <label><input type="radio" id="threestars" name="rating" required>&star;&star;&star;</label>
+            <label><input type="radio" id="fourstars" name="rating" required>&star;&star;&star;&star;</label>
+            <label><input type="radio" id="fivestars" name="rating" required>&star;&star;&star;&star;&star;</label>
+            
+            <label>Date of Installation*<Input type="date" id="date" name="date" required></label>
+            
+            <div>Which features did you find useful in the product? (Check all that apply)</div>
+            <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+            <label><input type="checkbox"  id="easeuse" name="easeuse" value="yes">Ease of Use</label>
+            <label><input type="checkbox"  id="performance" name="performance" value="yes">Performance</label>
+            <label><input type="checkbox"  id="design" name="design" value="yes">Design</label>
+            
+            <label for="feedback">Written Review (Optional)</label>
+            <textarea id="feedback" name="feedback" rows="6"></textarea>
+            
+            <label>Your Name (Optional)<input type="text" id="reviewer" name="reviewer"></label>
+            <input type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span>🌝 Yuma Natalia Hanane 🌒 Mozambique</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
