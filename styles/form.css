@@ -77,3 +77,9 @@ section {
     padding: 2rem;
     min-height: 400px;
 }
+
+.reviews {
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
+}

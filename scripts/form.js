@@ -51,3 +51,18 @@ function createOption(productArray) {
 
     });
 }
+
+const reviewsDisplay = document.querySelector(".reviews");
+
+let numReviews = Number(window.localStorage.getItem("reviews-ls")) || 0;
+
+if (numReviews !== 0) {
+    reviewsDisplay.textContent = numReviews;
+} else {
+    reviewsDisplay.textContent = `This is our first review. Thank you!`;
+}
+
+numReviews++;
+
+
+localStorage.setItem("reviews-ls", numReviews);
