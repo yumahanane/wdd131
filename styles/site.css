@@ -16,8 +16,9 @@ header img {
 header p {
     color: black;
     text-align: center;
-    font-size: 25px;
     margin: 0 auto;
+    /* border: 1px solid pink;
+    border-collapse: collapse; */
 }
 
 nav {
@@ -46,35 +47,42 @@ nav a {
 }
 
 .title {
-    font-size: 16px;
     text-align: center;
     margin: 0 auto;
 }
 
-.left {
+.left img {
     margin: 1.5rem auto;
+    display:block;
 }
 
 .right {
-    font-size: 16px;
     display: block;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(247, 223, 228);
 }
 
 .right h2 {
     text-align: center;
+    padding: 1rem;
 }
+
+
 
 footer {
     text-align: center;
     background-color: rgb(168, 127, 165);
-    margin-bottom: 2rem;
+
+    margin: 2rem 0;
+    background-image: url(../images/flowers.jpg);
 }
 
 footer p {
-    color: white;
+    color: black;
     padding: 0.5rem;
 }
 
-#lastModified {
+/* #lastModified {
     color: yellow;
-}
+} */
