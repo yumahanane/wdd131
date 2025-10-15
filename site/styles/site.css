@@ -7,24 +7,30 @@ body {
     font-family: 'Open Sans', 'Crimson Text', Arial, sans-serif;
 }
 
-header img {
-    width: 100%;
 
+h1 {
+    color: white;
+    text-align: left;
+    margin: 0 auto;
+    background-image: url(../images/stars-cropped.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 8rem;
+    font-size: larger;
+    font-family: 'Crimson Text', 'Open Sans', sans-serif;
+    
 }
 
-
-header p {
-    color: black;
-    text-align: center;
-    margin: 0 auto;
-    /* border: 1px solid pink;
-    border-collapse: collapse; */
+header img {
+    float: left;
+    margin: 1rem 0 1rem 1rem;
 }
 
 nav {
     background-color: rgb(161, 140, 180);
     margin: 0 auto;
     font-size: 16px;
+    font-family: 'Crimson Text', 'Open Sans', sans-serif;
 }
 
 nav ul {
@@ -40,15 +46,20 @@ nav a {
     color: white;
 }
 
+nav a:hover {
+    color:rgb(46, 5, 44);
+}
 
-.background img {
-    opacity: 0.6;
-    width: 100%;
+main {
+    background-image: url(../images/sky.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .title {
     text-align: center;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .left img {
@@ -57,15 +68,16 @@ nav a {
 }
 
 .right {
-    display: block;
     margin: 1rem;
     padding: 1rem;
     background-color: rgb(247, 223, 228);
+    opacity: 0.7;
 }
 
-.right h2 {
+.right h3 {
     text-align: center;
     padding: 1rem;
+    text-decoration: underline;
 }
 
 
@@ -73,9 +85,9 @@ nav a {
 footer {
     text-align: center;
     background-color: rgb(168, 127, 165);
-
-    margin: 2rem 0;
     background-image: url(../images/flowers.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 footer p {
@@ -83,6 +95,3 @@ footer p {
     padding: 0.5rem;
 }
 
-/* #lastModified {
-    color: yellow;
-} */
