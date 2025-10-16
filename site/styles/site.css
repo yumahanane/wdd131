@@ -231,3 +231,32 @@ input[type="submit"] {
 input[type="submit"]:hover {
     color: white;
 }
+
+article h1 {
+    color: black;
+    top: 300px;
+    left: 530px;
+}
+
+article p {
+    position: absolute;
+    top: 350px;
+    left: 460px;
+    font-size: larger;
+}
+
+.flowers3 {
+    position: absolute;
+    top: 1340px;
+
+}
+
+.foot3 {
+    position: absolute;
+    top: 1350px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
