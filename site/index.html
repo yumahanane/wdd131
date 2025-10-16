@@ -16,7 +16,15 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.webp" alt="logo" width="80" height="80">
+        <div class="stars">
+            <picture>
+                <source srcset="images/stars-large.jpg" media="(min-width:500px)">
+                <img src="images/stars.jpg" alt="Stars" loading="lazy">
+            </picture>
+        </div>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo" loading="lazy" >
+        </div>
         <h1>Just a<br>Yuman</h1>
         <nav>
             <ul>
@@ -27,13 +35,23 @@
         </nav>
     </header>
     <main>
+        <div class="sky">
+            <picture>
+                <source srcset="images/sky-large.jpg" media="(min-width:500px)">
+                <img src="images/sky.jpg" alt="Pink Sky" loading="lazy">
+            </picture>
+        </div>
         <div class="title">
             <h2>Yuma's Journal<br>DREAMING</h2>
             <p>by Yuma Natalia Hanane</p>
         </div>
-        <section class="left">
-            <img src="images/book-cover.png" alt="The Book Cover" loading="lazy" width="360">
-        <section class="right">
+        <div class="cover">
+            <picture>
+                <source srcset="images/book-cover.png" media="(min-width:500px)">
+                <img src="images/book-cover.png" alt="The Book Cover" loading="lazy">   
+            </picture>
+        </div>
+        <section class="intro">
             <h3>Introduction</h3>
             <p>I first named this Meu Livro (Portuguese for My Book). I have always been very lazy to write, but for the first time I
             was able to write something. It started as one page only. And I did not think it was going to go more than that. But I
@@ -48,8 +66,16 @@
         </section>
     </main>
     <footer>
-        <p>&copy; <span id="currentyear"></span>🌝 Yuma Natalia Hanane 🌒 Mozambique</p>
-        <p><span id="lastModified"></span></p>
+        <div class="flowers">
+            <picture>
+                <source srcset="images/flowers-large.jpg" media="(min-width:500px)">
+                <img src="images/flowers.jpg" alt="Field of Flowers" loading="lazy">
+            </picture>
+        </div>
+        <div class="foot">
+            <p>&copy; <span id="currentyear"></span>🌝 Yuma Natalia Hanane 🌒 Mozambique</p>
+            <p><span id="lastModified"></span></p>
+        </div>
     </footer>
 </body>
 </html>

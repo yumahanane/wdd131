@@ -1,7 +1,34 @@
 @media screen and (min-width: 500px) {
 
-    .left img{
-  
+    body {
+        font-size: 1rem;
     }
+
+    .title {
+
+        top: 250px;
+        left: 460px;
+    }
+
+    .cover img {
+        top: 380px;
+        left: 40px;
+    }
+
+    .intro {
+        top: 430px;
+        left: 420px;
+        margin: 0 2rem;
+    }
+
+    .flowers {
+        top: 888px;
+    }
+
+    .foot {
+        top: 940px;
+        left: 420px;
+    }
+
 
 }

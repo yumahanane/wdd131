@@ -5,41 +5,45 @@
 
 body {
     font-family: 'Open Sans', 'Crimson Text', Arial, sans-serif;
+    font-size: 1.5rem;
 }
 
+
+.stars img {
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+}
 
 h1 {
+    position: absolute;  
+    top: 50px;
+    left: 160px;
     color: white;
     text-align: left;
-    margin: 0 auto;
-    /* background-color: rgb(247, 225, 228); */
-    background-image: url(../images/stars.webp);
-    background-position: center;
-    background-size: cover;
-    padding: 2rem 8rem;
-    font-size: larger;
-    font-family: 'Crimson Text', 'Open Sans', sans-serif;
-    
-}
-
-header img {
-    float: left;
-    margin: 1rem 0 1rem 1rem;
+    font-size: 2rem;
+    font-family: 'Crimson Text', 'Open Sans', sans-serif;   
 }
 
 nav {
-    background-color: rgb(161, 140, 180);
-    margin: 0 auto;
-    font-size: 16px;
+    background-color: rgb(161, 140, 180); 
+    font-size: 1.5rem;
     font-family: 'Crimson Text', 'Open Sans', sans-serif;
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
 }
 
 nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    padding: 1rem;
-    
+    padding: 1rem;   
 }
 
 nav a {
@@ -51,48 +55,51 @@ nav a:hover {
     color:rgb(46, 5, 44);
 }
 
-main {
-    background-image: url(../images/sky.webp);
-    background-position: center;
-    background-size: cover;
-}
-
-.title {
-    text-align: center;
-    margin: 0 auto;
-    padding: 1rem;
-}
-
-.left img {
-    margin: 1.5rem auto;
-    display:block;
-}
-
-.right {
-    margin: 1rem;
-    padding: 1rem;
-    background-color: rgb(247, 223, 228);
+.sky img {
+    position: relative;
+    width: 100%; 
     opacity: 0.7;
 }
 
-.right h3 {
+.title {
+    position: absolute;
+    top: 230px;
+    left: 60px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cover img {
+    position: absolute;
+    top: 400px;
+    left: 32px;
+}
+
+.intro {
+    position: absolute;
+    top: 1030px;
+    padding: 1.5rem;
+    background-color: rgb(247, 223, 228, 0.7);
+    text-align: justify;
+}
+
+.intro h3 {
     text-align: center;
     padding: 1rem;
     text-decoration: underline;
 }
 
-
-
-footer {
-    text-align: center;
-    background-color: rgb(168, 127, 165);
-    background-image: url(../images/flowers.jpg);
-    background-position: center;
-    background-size: cover;
+.flowers {
+    position: absolute;
+    top: 2220px;
 }
 
-footer p {
+.foot {
+    position: absolute;
+    top: 2235px;
+    text-align: center;
     color: black;
+    font-weight: 700;
     padding: 0.5rem;
 }
 
