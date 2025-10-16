@@ -44,11 +44,17 @@ function createContents(indexArray) {
     }
 }
 
+   
+const button = document.querySelector('#button');
+let array = JSON.parse(localStorage.getItem("Feedback")) || [];
 
+button.addEventListener("click", function (e) {
+    e.preventDefault(); 
 
-let email = document.getElementById("email").value;
+    let userMessage = document.querySelector('#input').value; 
+    array.push(userMessage);
+    localStorage.setItem("Feedback", JSON.stringify(array));
 
-localStorage.setItem("email", JSON.stringify(email));
-
-console.log(localStorage.getItem("email"));
+    window.location.href = "thanks-note.html";
+});
 
