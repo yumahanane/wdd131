@@ -34,6 +34,7 @@ h1 {
 nav {
     background-color: rgb(161, 140, 180); 
     font-size: 1.5rem;
+    font-weight: 700;
     font-family: 'Crimson Text', 'Open Sans', sans-serif;
     grid-row: 2 / 3;
     grid-column: 1 / 4;
@@ -48,11 +49,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 nav a:hover {
-    color:rgb(46, 5, 44);
+    /* color:rgb(139, 17, 133); */
+    color: white;
 }
 
 .sky img {
@@ -73,6 +75,7 @@ nav a:hover {
     position: absolute;
     top: 400px;
     left: 32px;
+    border-radius: 10px;
 }
 
 .intro {
