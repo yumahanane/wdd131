@@ -109,11 +109,24 @@ nav a:hover {
 /* --------- The Book ----------- */
 
 
-#index {
+.index {
     position: absolute;
     top: 450px;
-    left: 180px;
-    
+    left: 140px;   
+    text-decoration: underline;
+}
+
+#contents {
+    position: absolute;
+    top: 520px;
+    left: 70px;
+    list-style-type:upper-roman ;
+    font-size: 1.2rem;
+}
+
+#contents li:hover {
+    color:rgb(211, 26, 184);
+    text-transform: uppercase;
 }
 
 .manuscript {
@@ -122,21 +135,28 @@ nav a:hover {
     font-size: 1.2rem;
     background-color: rgb(247, 223, 228, 0.7);
     text-align: justify;
-    padding: 1rem;
-    
+    padding: 1rem;  
 }
+
+.manuscript h3 {
+    text-align: center;
+    padding: 1.5rem;
+}
+
 
 .flowers2 {
     position: absolute;
-    top: 6600px;
+    top: 18140px;
+    
 }
 
 .foot2 {
     position: absolute;
-    top: 6640px;
+    top: 18190px;
     text-align: center;
     color: black;
     font-weight: 700;
     padding: 0.5rem;
     font-size: 1.2rem;
 }
+

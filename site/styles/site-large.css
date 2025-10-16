@@ -30,5 +30,34 @@
         left: 420px;
     }
 
+    /* --------- The Book ----------- */
 
+
+    .index {
+        position: absolute;
+        top: 410px;
+        left: 560px;
+    }
+
+    #contents {
+        position: absolute;
+        top: 470px;
+        left: 470px;
+     
+    }
+
+    .manuscript {
+        top: 600px;
+        padding: 2rem;
+    }
+
+    .flowers2 {
+        top: 8220px;
+
+    }
+
+    .foot2 {
+        top: 8270px;
+        left: 420px;
+    }
 }
