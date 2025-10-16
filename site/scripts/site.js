@@ -31,14 +31,24 @@ const contentsArray = [
 createContents(contentsArray);
 
 function createContents(indexArray) {
-    document.querySelector("#contents").innerHTML = "";
-    indexArray.forEach(item => {
-        let line = document.createElement("li");
+    if (indexArray != null) {
+        document.querySelector("#contents").innerHTML = "";
+        indexArray.forEach(item => {
+            let line = document.createElement("li");
 
-        line.innerHTML = `Chapter - <a href=#${item.chapter}>${item.title}`;
+            line.innerHTML = `Chapter - <a href=#${item.chapter}>${item.title}`;
 
-        document.querySelector("#contents").appendChild(line);
+            document.querySelector("#contents").appendChild(line);
 
-    }); 
+        });
+    }
 }
+
+
+
+let email = document.getElementById("email").value;
+
+localStorage.setItem("email", JSON.stringify(email));
+
+console.log(localStorage.getItem("email"));
 
