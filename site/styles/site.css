@@ -106,3 +106,37 @@ nav a:hover {
     padding: 0.5rem;
 }
 
+/* --------- The Book ----------- */
+
+
+#index {
+    position: absolute;
+    top: 450px;
+    left: 180px;
+    
+}
+
+.manuscript {
+    position: absolute;
+    top: 700px;
+    font-size: 1.2rem;
+    background-color: rgb(247, 223, 228, 0.7);
+    text-align: justify;
+    padding: 1rem;
+    
+}
+
+.flowers2 {
+    position: absolute;
+    top: 6600px;
+}
+
+.foot2 {
+    position: absolute;
+    top: 6640px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
