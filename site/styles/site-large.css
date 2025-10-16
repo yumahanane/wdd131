@@ -60,4 +60,59 @@
         top: 8270px;
         left: 420px;
     }
+
+    /* --------- Contact Us Page ------- */
+
+    
+    .thank-the-reader h1 {
+        top: 290px;
+        left: 500px;
+        font-size: 2rem;
+    }
+
+    .thank-the-reader p {
+        top: 335px;
+        left: 220px;
+    }
+
+    .questions li {
+        padding: .7rem;
+        margin: auto -1.5rem;
+        
+    }
+
+    form {
+        width: 550px;
+    }
+
+    .feedback {
+        top: 450px;
+        left: 600px;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    input[type="submit"] {
+        margin: 1rem 0 0 7rem;
+    }
+
+    .flowers3 {
+        position: absolute;
+        top: 1140px;
+
+    }
+
+    .foot3 {
+        position: absolute;
+        top: 1200px;
+        left: 450px;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+
 }

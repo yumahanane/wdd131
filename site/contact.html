@@ -38,10 +38,10 @@
     </header>
     <main>
         <div class="thank-the-reader">
-            <h1>Thank You 🤗</h1></p>
+            <h1>Thank You 🤗</h1>
             <p>We are grateful for the time you took to check our website and read the book.</p>
         </div>
-            <ul>
+            <ul class="questions">
                 <li>Did you enjoy the book?</li>
                 <li>Did you learn something new?</li>
                 <li>Do you have any questions?</li>
@@ -50,29 +50,22 @@
         <section class="feedback">
             <h2>Send Us Your Feedback</h2>
             <form method="get" action="thanks-note.html" class="wf1">
-                <label>Name (Optional)<input type="text" name="name" required></label> 
+                <label>Name (Optional)<input type="text" name="name"></label> 
                 <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="6"></textarea>
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" rows="10" required></textarea>
                 <input type="submit" value="Post Your Message">
-        </section>
-        <section class="newsletter">
-            <h2>Email Newsletter</h2>
-            <form>
-                <p>Get updates on volume II posting date</p>
-                <label>Email*</label><input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <button type="submit">Subscribe Here</button>
             </form>
         </section>
     </main>
     <footer>
-        <div class="flowers">
+        <div class="flowers3">
             <picture>
                 <source srcset="images/flowers-large.jpg" media="(min-width:500px)">
                 <img src="images/flowers.jpg" alt="Field of Flowers" loading="lazy">
             </picture>
         </div>
-        <div class="foot">
+        <div class="foot3">
             <p>&copy; <span id="currentyear"></span>🌝 Yuma Natalia Hanane 🌒 Mozambique</p>
             <p><span id="lastModified"></span></p>
         </div>
