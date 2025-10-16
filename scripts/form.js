@@ -52,17 +52,17 @@ function createOption(productArray) {
     });
 }
 
-const reviewsDisplay = document.querySelector(".reviews");
+const button = document.querySelector("#button");
 
-let numReviews = Number(window.localStorage.getItem("reviews-ls")) || 0;
+let numSubmission = Number(window.localStorage.getItem("submission")) || 0;
 
-if (numReviews !== 0) {
-    reviewsDisplay.textContent = numReviews;
+if (numSubmission !== 0) {
+    submissionDisplay.textContent = numSubmission;
 } else {
-    reviewsDisplay.textContent = `This is our first review. Thank you!`;
+    submissionDisplay.textContent = `This is our first review. Thank you!`;
 }
 
-numReviews++;
+numSubmission++;
 
 
-localStorage.setItem("reviews-ls", numReviews);
+localStorage.setItem("submission", numSubmission);
